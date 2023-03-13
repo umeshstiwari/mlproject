@@ -5,4 +5,6 @@ setup(
   name="mlproject",
   version="0.0.1",
   author="Umesh Tiwari"
-  packages=fin
+  packages=find_packages(),
+  install_requires = ["pandas","numpy","seaborn"]
+)
